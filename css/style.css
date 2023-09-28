@@ -839,6 +839,10 @@ footer .container {
         padding: 30px 10px;
     }
 
+    .about__pic img {
+        margin-top: 20px;
+    }
+
     .service {
         padding: 30px 10px 0 10px;
     }
@@ -876,4 +880,22 @@ footer .container {
         padding: 0 10px;
     }
     
+    .footer__icons a {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__icons a:hover i {
+        color: inherit;
+    }
+    
+    .footer__icons a:hover {
+        transform: inherit;
+        border: inherit;
+        background: inherit;
+    }
 }
