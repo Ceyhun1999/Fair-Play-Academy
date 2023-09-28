@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="first__navbar">
+                <div class="container">
+                    <ul class="icons">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li>Contact Us</li>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen"></i>+971 55 509 9278</a></li>
+                        <li><a href="">+971 55 509 9278</a></li>
+                        <li><a href="">+971 55 509 9278</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="second__navbar">
+                <div class="container">
+                    <a href="index.html">
+                        <img height="80" src="img/FairPlay Logo.png" alt="">
+                    </a>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="ageCategories.html">Age Categories</a></li>
+                        <li><a href="training.html">Training date</a></li>
+                        <li><a href="trainingVİdeo.html">Training videos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header d-flex justify-content-end">
+                <button type="button" class="btn-closeMenu" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="menu-mobile">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ageCategories.html">Age Categories</a></li>
+                    <li><a href="training.html">Training date</a></li>
+                    <li><a href="trainingVİdeo.html">Training videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <section class="static-section">
+            <div class="container">
+                <div class="breadcumb">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="ageCategories.html">Age Categories</a>
+                </div>
+            </div>
+            <div class="static-overlay"></div>
+        </section>
+        <section class="agecategory">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2>BOYS GIRLS</h2>
+                        <h3>AGE CATEGORIES</h3>
+                    </div>
+                    <div class="age_table">
+                        <div class="table">
+                            <div>
+                                <h6> U4</h6>
+                                <p>July 2018 Dec 2019</p>
+                            </div>
+                            <div>
+                                <h6>U6</h6>
+                                <p>January 2017 June 2018</p>
+                            </div>
+                            <div>
+                                <h6>U8</h6>
+                                <p>January 2015 December 2016</p>
+                            </div>
+                            <div>
+                                <h6>U10</h6>
+                                <p>January 2013 December 2014</p>
+                            </div>
+                            <div>
+                                <h6>U12</h6>
+                                <p>January 2011 December 2012</p>
+                            </div>
+                            <div>
+                                <h6>U14</h6>
+                                <p>January 2009 December 2010</p>
+                            </div>
+                            <div>
+                                <h6>U16</h6>
+                                <p>January 2007 December 2008</p>
+                            </div>
+                            <div>
+                                <h6>U18</h6>
+                                <p>January 2005 December 2006</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__icons">
+                <a href="https://www.facebook.com/profile.php?id=100084793847924">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/limaninsurancebroker/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/LimanInsurance">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/limaninsurancebroker/about/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="footer__bottom">
+                <ul class="footer__menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ageCategories.html">Age Categories</a></li>
+                    <li><a href="training.html">Training date</a></li>
+                    <li><a href="trainingVİdeo.html">Training videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="copyright">
+                    <span>© Copyright <span class="date">2023</span>. Bütün hüquqları qorunur</span>
+                    <p>Created and Marketed by:
+                        <a target="_blank" href="https://okmedia.az/">
+                            <img width="100" src="/img/okmedialogo1.png" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d4a8753bf6.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>

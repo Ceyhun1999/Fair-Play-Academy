@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="first__navbar">
+                <div class="container">
+                    <ul class="icons">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li>Contact Us</li>
+                        <li><a href=""><i class="fa-solid fa-mobile-screen"></i>+994 51 999 3348</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="second__navbar">
+                <div class="container">
+                    <a href="index.html">
+                        <img height="80" src="img/FairPlay Logo.png" alt="">
+                    </a>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="ageCategories.html">Age Categories</a></li>
+                        <li><a href="training.html">Training date</a></li>
+                        <li><a href="trainingVİdeo.html">Training videos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header d-flex justify-content-end">
+                <button type="button" class="btn-closeMenu" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="menu-mobile">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ageCategories.html">Age Categories</a></li>
+                    <li><a href="training.html">Training date</a></li>
+                    <li><a href="trainingVİdeo.html">Training videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <section class="section-header">
+            <div class="header__title">
+                <h2>Welcome to</h2>
+                <h1>Fair Play academy</h1>
+                <h4>SEASON 2023 -2024 REGISTRATION NOW OPEN</h4>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="about__title">
+                            <h3>ABOUT</h3>
+                            <h2>Fair Play Academy</h2>
+                            <p>Created by LaLiga, the world’s strongest league, Fair Play Academy offers young players
+                                across the UAE an immersive, professional football experience, with a superior
+                                methodology recognized as the gold standard in training and development globally.
+                            </p>
+                            <p>In five short years, Fair Play Academy has changed the face of youth football in the
+                                UAE, creating a new generation of world-class players and professional athletes.</p>
+                            <p>Training, at the hands of Fair Play Academy’s finest UEFA Pro-certified coaches, is
+                                highly
+                                personalized, blending technical and tactical skills with cognitive and
+                                conditioning, enabling players to embed learning, master the game and heighten their
+                                playing ability.</p>
+                            <p>The Academy also offers a professional development track for top young talent looking
+                                to pursue football careers or obtain soccer scholarships to universities in the US.
+                            </p>
+                            <p>Talents are discovered through Fair Play Academy exclusive scouting program and
+                                developed to Fair Play Academy professional standards at the Fair Play Academy High
+                                Performance Centre
+                                in the UAE.</p>
+                        </div>
+                        <div class="red_btn">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about__pic">
+                            <img src="img/about.png" al="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stars">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide slide-1">
+                        <div class="slider-text container">
+                            <h3>Cristiano Ronaldo</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repellat ipsum
+                                repudiandae architecto quos odio, vel velit iste quasi accusantium.</p>
+                        </div>
+                        <div class="swiper-overlay"></div>
+                    </div>
+                    <div class="swiper-slide slide-2">
+                        <div class="slider-text container">
+                            <h3>Lionel Messi</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium similique
+                                voluptate nobis earum laboriosam.</p>
+
+                        </div>
+                        <div class="swiper-overlay"></div>
+                    </div>
+                    <div class="swiper-slide slide-3">
+                        <div class="slider-text container">
+                            <h3>Neymar</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam porro hic
+                                aspernatur,
+                                voluptate, ducimus fugiat quibusdam saepe reprehenderit error cupiditate veniam laborum
+                                architecto nisi voluptatibus sit dolor deserunt. Id.</p>
+                        </div>
+                        <div class="swiper-overlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <div class="row">
+                    <div class="advantages__title">
+                        <h3>Why</h3>
+                        <h2>Fair Play Academy</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="box_content">
+                                <img src="img/advantage-1.png" alt="Advantage Icon">
+                                <p>Fair Play Academy TRAINING &amp; DEVELOPMENT METHODOLOGY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box_content">
+                                <img src="img/advantage-2.png" alt="Advantage Icon">
+                                <p>Fair Play Academy UEAFA PRO CERTIFIED COACHES WITH SPORTS SCIENCE DEGREES</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box_content">
+                                <img src="img/advantage-3.png" alt="Advantage Icon">
+                                <p>PLAYER EVALUATION REPORTS PER SEASON</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box_content">
+                                <img src="img/advantage-4.png" alt="Advantage Icon">
+                                <p>İmproving Community Skills</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="agecategory">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2>BOYS GIRLS</h2>
+                        <h3>AGE CATEGORIES</h3>
+                    </div>
+                    <div class="age_table">
+                        <div class="table">
+                            <div>
+                                <h6> U4</h6>
+                                <p>July 2018 Dec 2019</p>
+                            </div>
+                            <div>
+                                <h6>U6</h6>
+                                <p>January 2017 June 2018</p>
+                            </div>
+                            <div>
+                                <h6>U8</h6>
+                                <p>January 2015 December 2016</p>
+                            </div>
+                            <div>
+                                <h6>U10</h6>
+                                <p>January 2013 December 2014</p>
+                            </div>
+                            <div>
+                                <h6>U12</h6>
+                                <p>January 2011 December 2012</p>
+                            </div>
+                            <div>
+                                <h6>U14</h6>
+                                <p>January 2009 December 2010</p>
+                            </div>
+                            <div>
+                                <h6>U16</h6>
+                                <p>January 2007 December 2008</p>
+                            </div>
+                            <div>
+                                <h6>U18</h6>
+                                <p>January 2005 December 2006</p>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <h2 class="service-title">Training date</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-6</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-5</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-4</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-3</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-2</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="/pencere/">
+                            <div class="card">
+                                <img src="img/mesq.jpg">
+                                <div class="text">
+                                    <h5>Service-1</h5>
+                                    <p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                                        Lorem Lorem Lorem...</p>
+                                    <span>Detail</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <h2 class="service-title">Training videos</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/uNRVCGV6zRI?si=JAsFSHOuT3ACahRZ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__icons">
+                <a href="https://www.facebook.com/profile.php?id=100084793847924">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/limaninsurancebroker/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/LimanInsurance">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/limaninsurancebroker/about/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="footer__bottom">
+                <ul class="footer__menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ageCategories.html">Age Categories</a></li>
+                    <li><a href="training.html">Training date</a></li>
+                    <li><a href="trainingVİdeo.html">Training videos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="copyright">
+                    <span>© Copyright <span class="date">2023</span>.</span>
+                    <p>Created and Marketed by:
+                        <a target="_blank" href="">
+                            <img width="100" src="" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d4a8753bf6.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
